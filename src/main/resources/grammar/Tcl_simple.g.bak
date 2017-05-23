@@ -1,0 +1,9 @@
+statement : IDENTIFIER expr*;
+
+expr : command_expr | block_expr | terminal_expr;
+
+command_expr : '[' statement ']'
+
+block_expr : '{' expr '}';
+
+terminal_expr : IDENTIFIER | QUOTED_STRING;

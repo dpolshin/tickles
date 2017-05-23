@@ -1,0 +1,3 @@
+COMMENT ('#!/usr/bin/env tclsh\n')
+NEW_LINE ('\n')
+COMMENT ('# Example comment')
